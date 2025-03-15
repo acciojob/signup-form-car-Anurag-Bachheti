@@ -7,8 +7,46 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" required="Yes" id="name" placeholder="Name">
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" required="Yes" id="email" placeholder="Email">
+		<br>
+		<label for="gender_m, gender_f">Gender:</label>
+		<input type="radio" required="Yes" id="gender_m" placeholder="" name="gender">Male
+		<input type="radio" required="Yes" id="gender_f" placeholder="" name="gender">Female
+		<br>
+		<label for="cars">Cars:</label>
+		<select type="Select" required="Yes" id="cars" placeholder="--Please choose an option--">
+		<option>--Please choose an option--</option>
+		<option>Mercedes</option>
+		<option>Mazarati</option>
+		<option>Hyundai</option>
+		</select>
+		<br>
+		<label for="age">Age:</label>
+		<input type="number" required="Yes" id="age" placeholder="Age" min="1" max="120">
+		<br>
+		<label for="dob">DOB:</label>
+		<input type="date" required="Yes" id="dob" placeholder="-">
+		<br>
+		<label for="tel">Telephone:</label>
+		<input type="tel" required="Yes" id="tel" placeholder="xxx-xxx-xxxx">
+		<br>
+		<label for="password">Password</label>
+		<input type="password" required="Yes" id="password" placeholder="Password">
+		<br>
+		<label for="tos"></label>
+		<input type="checkbox" required="Yes" id="tos" placeholder="-"> I agree to the TOS
+		<br>
+		<label for="button"></label>
+		<input type="submit" required="Yes" id="button">
+	</form>
+	
+	
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
